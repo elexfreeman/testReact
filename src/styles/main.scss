@@ -3,6 +3,7 @@ $dark-color: #99a4ab;
 $gray-bg: #f5f6f7;
 $gray-color: #99a4ab;
 $primary-bg: #dbf0f3;
+$border-gray: #ddd;
 @mixin transition($transition...) {
   -moz-transition: $transition;
   -o-transition: $transition;
@@ -42,6 +43,9 @@ $primary-bg: #dbf0f3;
 @import './special-product.scss';
 @import './offer.scss';
 @import './products.scss';
+@import './blog.scss';
+@import './footer.scss';
+@import './bread.scss';
 
 .center-container-wrap-g {
   background-color: $gray-bg;

@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Product = ({caption, columns}) => {
-  let class_name = 'column  col-xs-12 col-' + columns;
+const ProductItem = ({caption, columns}) => {
+  let class_name = 'column col-sm-12  col-xs-12 col-' + columns;
   return (<div className={class_name}>
     <div className='product'>
       <div className='p-badge'>Новый</div>
@@ -18,4 +18,4 @@ const Product = ({caption, columns}) => {
 
 }
 
-export default Product;
+export default ProductItem;

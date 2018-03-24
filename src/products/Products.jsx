@@ -1,16 +1,16 @@
 import React from 'react';
-import Product from './Product';
+import ProductItem from './ProductItem';
 
 const Products = ({columns}) => {
 
   return (<div className="columns products">
 
-    <Product columns={columns} caption={'Крем для лица Айва 5мл Крем для лица Айва 5мл'}/>
-    <Product columns={columns} caption={'Крем для лица Айва 5мл'}/>
-    <Product columns={columns} caption={'Крем для лица Айва 5мл'}/>
-    <Product columns={columns} caption={'Крем для лица Айва 5мл'}/>
-    <Product columns={columns} caption={'Крем для лица Айва 5мл'}/>
-    <Product columns={columns} caption={'Крем для лица Айва 5мл'}/>
+    <ProductItem columns={columns} caption={'Крем для лица Айва 5мл Крем для лица Айва 5мл'}/>
+    <ProductItem columns={columns} caption={'Крем для лица Айва 5мл'}/>
+    <ProductItem columns={columns} caption={'Крем для лица Айва 5мл'}/>
+    <ProductItem columns={columns} caption={'Крем для лица Айва 5мл'}/>
+    <ProductItem columns={columns} caption={'Крем для лица Айва 5мл'}/>
+    <ProductItem columns={columns} caption={'Крем для лица Айва 5мл'}/>
 
   </div>)
 }
