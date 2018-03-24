@@ -18,7 +18,7 @@ module.exports = {
   },
 
   resolve: {
-    extensions: ['*','.js', '.jsx']
+    extensions: ['*', '.js', '.jsx']
   },
 
   devtool: '#cheap-module-source-map',
@@ -70,10 +70,10 @@ module.exports = {
         exclude: /node_modules/
       },
       {
-          test: /\.jsx?$/,
-          use: ['babel-loader', ],
-          exclude: /node_modules/
-        },
+        test: /\.jsx?$/,
+        use: ['babel-loader', ],
+        exclude: /node_modules/
+      },
       {
         test: /\.scss$/,
         use: ExtractTextPlugin.extract({
@@ -92,7 +92,8 @@ module.exports = {
   plugins: [
     new ExtractTextPlugin({
       filename: 'styles.css',
-      allChunks: true
+      allChunks: true,
+      disable: true
     }),
     //  new webpack.optimize.CommonsChunkPlugin({
     //   name: "common"
@@ -104,8 +105,8 @@ module.exports = {
     }),
     new webpack.HotModuleReplacementPlugin()
   ],
-  // devServer: {
-  //   hot: true,
-  //   contentBase: './public'
-  // }
+  devServer: {
+    hot: true,
+    contentBase: './public'
+  }
 };
