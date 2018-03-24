@@ -26,7 +26,15 @@
   }
 }
 
-@media (max-width: 736px) {
+@media (max-width: 1024px) {
+  .offer {
+    .offer-item {
+      height: 14rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
   .offer {
     .offer-item {
       margin-bottom: 1rem

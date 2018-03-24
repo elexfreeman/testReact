@@ -16,10 +16,10 @@ const ProductPage = ({caption, availability}) => {
       <div className="container grid-xl center-container">
         <Bread caption={caption}/>
         <div className="columns">
-          <div className="column col-xs-12 col-sm-12 col-lg-4 col-xl-4 col-3">
+          <div className="col-menu-left column col-xs-12 col-sm-12 col-lg-4 col-xl-4 col-3">
             <MenuLeft/>
           </div>
-          <div className="column col-xs-12 col-sm-12 col-lg-8 col-xl-8 col-9">
+          <div className="column col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 col-9">
             <div className="columns">
               <ProductImg img={'http://rouse.one/images/uploadimg/NggyDkAkrem_dlya_lica_ayva.jpg'}/>
               <ProductInfo caption={caption}  availability={availability}/>

@@ -7,3 +7,13 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
+
+
+
+@media (max-width: 768px) {
+
+  .col-menu-left{
+    display: none;
+  }
+}

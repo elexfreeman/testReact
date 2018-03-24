@@ -130,5 +130,24 @@
 
   .details {
     padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media (max-width: 1024px) {
+  .product-page {
+    .details{
+      padding-right: 1rem;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .product-page {
+    .product-info{
+      .product-order{
+        .to_cart{
+          padding-top:1rem;
+        }
+      }
+    }
   }
 }
