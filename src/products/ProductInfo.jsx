@@ -1,10 +1,11 @@
 import React from 'react';
+import ProductOrder from './ProductOrder';
 
 const ProductInfo = ({caption, availability}) => {
 
   return (<div className="product-info column col-xs-12 col-sm-12 col-lg-8 col-xl-8 col-8">
     <div className='info'>
-      <div className='caption'>{caption}</div>
+      <h1 className='caption'>{caption}</h1>
       <div className='availability'>Доступность:
         <span>{availability}</span>
       </div>
@@ -21,6 +22,7 @@ const ProductInfo = ({caption, availability}) => {
         <br></br>
         Объём: 50 мл
       </div>
+      <ProductOrder />
     </div>
 
   </div>)

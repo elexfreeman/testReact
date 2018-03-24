@@ -5,6 +5,9 @@ import Bread from '../base/Bread';
 import ProductImg from './ProductImg';
 import ProductInfo from './ProductInfo';
 import ProductDetails from './ProductDetails';
+
+
+
 const ProductPage = ({caption, availability}) => {
 
   return (<div className="product-page">

@@ -72,15 +72,14 @@
 }
 
 .product-page {
+  .product-img {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 
- .product-img{
-   padding-left: 1rem;
-   padding-right: 1rem;
- }
-  .product-info{
-
-    background-color: #fff;
+  .product-info {
     padding: 1rem;
+
     .caption {
       font-size: 1.5rem;
     }
@@ -106,10 +105,30 @@
     .description {
       font-size: 0.6rem;
     }
+
+    .product-order {
+      margin-top: 1rem;
+      background-color: #fff;
+      padding: 0.5rem 1rem;
+
+      .price {
+        font-size: 1rem;
+      }
+
+      .to_cart {
+        text-align: right;
+
+        button {
+          height: auto;
+          font-size: 1rem;
+          line-height: 2rem;
+          width: 100%;
+        }
+      }
+    }
   }
 
-  .details{
+  .details {
     padding-left: 1rem;
   }
-
 }
